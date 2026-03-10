@@ -26,9 +26,9 @@ export default function Home() {
           email
         </a>
         <span className="home-link-divider">·</span>
-        <a href="www.linkedin.com/in/dikshant-yadav-9bb898291" target="_blank" rel="noreferrer" className="home-link">
-          linkedin
-        </a>
+        <a href="https://www.linkedin.com/in/dikshant-yadav-9bb898291" target="_blank" rel="noreferrer" className="home-link">
+  linkedin
+</a>
       </div>
 
       {/* <p className="home-footer">Made with 💖 by Dikshant</p> */}
