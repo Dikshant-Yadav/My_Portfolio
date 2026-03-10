@@ -1,0 +1,125 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.home-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 0.5rem 0;
+}
+
+.home-greeting {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.home-name {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.home-bullets {
+  list-style: disc;
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.home-bullets li {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.home-tagline {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  font-family: var(--font-serif);
+}
+
+.home-links {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  margin-top: 0.5rem;
+}
+
+.home-link {
+  font-size: 0.82rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  transition: color 0.2s ease;
+}
+
+.home-link:hover {
+  color: var(--text);
+}
+
+.home-link-divider {
+  color: var(--border);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  .home-greeting {
+    font-size: 1.7rem;
+  }
+
+  .home-bullets li {
+    font-size: 0.82rem;
+  }
+}
+
+.home-footer {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-top: 2rem;
+  font-style: italic;
+  font-family: var(--font-serif);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.home-para {
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.85;
+  font-family: var(--font-serif);
+}
+
+.story-row {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2rem;
+}
+
+.story-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: lowercase;
+  letter-spacing: 0.08em;
+  min-width: 70px;
+  font-style: italic;
+  font-family: var(--font-serif);
+}
+
+.story-value {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.5;
+}
