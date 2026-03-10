@@ -9,10 +9,10 @@
   stroke-width: 0.8px;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
   filter: drop-shadow(0 1px 4px rgba(28, 43, 58, 0.15));
-  animation: draw 9.5s ease forwards;
+  animation: draw 6.5s ease forwards;
 }
 .banner-wrapper {
   width: 100%;
@@ -28,11 +28,14 @@
 
 @keyframes draw {
   0% {
-    stroke-dashoffset: 1500;
+    stroke-dashoffset: 800;
     fill: transparent;
   }
-  80% {
+  50% {
     fill: transparent;
+  }
+  65% {
+    fill: #1C2B3A;
   }
   100% {
     stroke-dashoffset: 0;
